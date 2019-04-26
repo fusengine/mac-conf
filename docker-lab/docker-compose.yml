@@ -1,0 +1,70 @@
+version: '3.3'
+services:
+  bdd:
+    restart: always
+    image: percona
+    ports:
+      - '36:3306'
+    volumes:
+      - '~/Labo/docker-lab/config/mysql/db:/var/lib/mysql'
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - '82:8080'
+    environment:
+      - ADMINER_DEFAULT_SERVER=bdd
+    depends_on:
+      - bdd
+    links:
+      - bdd
+  mongodb:
+    restart: always
+    image: mongo
+    ports:
+      - '207:27017'
+    volumes:
+      - '~/Labo/docker-lab/config/mongodb/db:/data/db'
+      - '~/Labo/docker-lab/config/mongodb/config:/data/configdb'
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=root
+  redis:
+    restart: always
+    image: redis
+    ports:
+      - '65:6379'
+    volumes:
+      - '~/Labo/docker-lab/config/redis/auth:/data'
+  web:
+    restart: always
+    image: fusengine/apache-php
+    ports:
+      - '80:80'
+    volumes:
+      - '~/Labo/docker-lab/local.dev:/app/web'
+      - '~/Labo/docker-lab/config/apache/vhost:/etc/apache2/vhost.d'
+      - '~/Labo/docker-lab/config/email/mail.conf:/etc/ssmtp/ssmtp.conf'
+      - '~/Labo/docker-lab/config/php/php.ini:/etc/php/7.3/conf.d/30-custom.ini'
+    environment:
+      - SERVER_ADMIN=info@dev.local
+      - SERVER_NAME=dev.local
+      - EMAIL_APACHE=dev.local
+    depends_on:
+      - bdd
+      - redis
+      - mongodb
+      - maildev
+    links:
+      - bdd
+      - redis
+      - mongodb
+      - maildev
+  maildev:
+    restart: always
+    image: djfarrelly/maildev
+    ports:
+      - '81:80'
+      - '125:25'
