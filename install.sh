@@ -20,9 +20,9 @@ reset
 # easy python
 sudo easy_install pip
 
-# install software with cask
+# install software with cask java
 brew cask install \
-    discord appcleaner hyper docker java postman iina sequel-pro gitkraken \
+    discord appcleaner hyper docker  postman iina sequel-pro gitkraken \
     visual-studio-code google-chrome alfred sketch code-notes robo-3t adoptopenjdk \
     webtorrent dash teamviewer visual-studio iterm2 insomnia dockstation \
     ndm java imageoptim onyx sketchpacks balenaetcher vmware-fusion jetbrains-toolbox
