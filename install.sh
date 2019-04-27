@@ -25,7 +25,7 @@ brew cask install \
     discord appcleaner hyper docker iina sequel-pro gitkraken \
     visual-studio-code google-chrome alfred sketch code-notes robo-3t adoptopenjdk \
     webtorrent dash teamviewer visual-studio iterm2 insomnia dockstation \
-    ndm java imageoptim onyx sketchpacks balenaetcher vmware-fusion jetbrains-toolbox
+    imageoptim onyx sketchpacks balenaetcher vmware-fusion jetbrains-toolbox
 
 # install global package node
 yarn global add tslint jshint eslint sass-lint webpack \
