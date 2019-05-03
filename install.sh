@@ -24,7 +24,7 @@ sudo easy_install pip
 brew cask install \
     discord appcleaner hyper docker iina sequel-pro gitkraken mongodb-compass-community \
     visual-studio-code google-chrome alfred sketch code-notes adoptopenjdk motrix \
-    webtorrent dash teamviewer visual-studio iterm2 insomnia dockstation \
+    webtorrent dash teamviewer visual-studio iterm2 insomnia dockstation openinterminal-lite \
     imageoptim onyx sketchpacks balenaetcher vmware-fusion jetbrains-toolbox
 
 # install global package node
