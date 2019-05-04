@@ -12,7 +12,7 @@ curl -sSL https://raw.githubusercontent.com/fusengine/mac-conf/master/install.sh
 ![brew cask upddate](https://github.com/buo/homebrew-cask-upgrade)
 
 # fish
-![fisher](img/fish.png)
+[fisher](img/fish.png)
 ```sh
 fish_config
 
