@@ -14,7 +14,7 @@ curl -sSL https://raw.githubusercontent.com/fusengine/mac-conf/master/install.sh
 ```sh
 fish_config
 
-'brew update; and brew upgrade; and brew cleanup; and rm -rf (brew --cache)'
+'brew update; and brew upgrade; and brew cleanup;and brew cu -a -y;  and rm -rf (brew --cache)'
 'yarn global upgrade; yarn cache clean'
 ```
 
