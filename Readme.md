@@ -4,6 +4,7 @@
 
 * [font powerline](https://github.com/powerline/fonts)
 * [font firacode](https://github.com/tonsky/FiraCode)
+* [hosts prefpan mac](https://github.com/specialunderwear/Hosts.prefpane/releases)
 
 ```sh
 curl -sSL https://raw.githubusercontent.com/fusengine/mac-conf/master/install.sh | sh
