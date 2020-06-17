@@ -1,6 +1,7 @@
 # install fish + node
 brew tap dart-lang/dart
 brew tap buo/cask-upgrade
+brew tap zkokaja/brewlet
 
 brew install \
     yarn wget fish php php-cs-fixer php-code-sniffer \
