@@ -28,7 +28,7 @@ brew cask install \
     visual-studio-code google-chrome alfred sketch code-notes adoptopenjdk motrix open-in-code \
     webtorrent dash teamviewer visual-studio iterm2 insomnia dockstation openinterminal-lite \
     imageoptim onyx sketchpacks balenaetcher vmware-fusion jetbrains-toolbox openinterminal \
-    keyboardcleantool pock tableplus microsoft-edge
+    keyboardcleantool pock tableplus microsoft-edge brewlet
 
 # install global package node
 yarn global add tslint jshint eslint sass-lint webpack \
