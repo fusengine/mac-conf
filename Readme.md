@@ -38,5 +38,6 @@ curl -Lo ~/.config/fish/conf.d/done.fish --create-dirs https://raw.githubusercon
 ```
 
 ## brew reinstall
+```sh
 sudo rm -rf /usr/local/Cellar /usr/local/.git && brew cleanup
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
