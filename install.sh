@@ -15,7 +15,7 @@ echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
 
 # install fisher
-curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 
 # reset terminal
 reset
@@ -23,12 +23,12 @@ reset
 # easy python
 sudo easy_install pip
 
-# install software with cask java postman mongodb-compass-community
+# install software with cask java postman mongodb-compass-community onyx
 brew install \
     discord appcleaner hyper docker iina sequel-pro gitkraken \
     visual-studio-code google-chrome alfred sketch code-notes adoptopenjdk motrix open-in-code \
     webtorrent dash teamviewer visual-studio iterm2 insomnia dockstation openinterminal-lite \
-    imageoptim onyx sketchpacks balenaetcher vmware-fusion jetbrains-toolbox openinterminal \
+    imageoptim sketchpacks balenaetcher vmware-fusion jetbrains-toolbox openinterminal \
     keyboardcleantool pock tableplus microsoft-edge brewlet
 
 # install global package node
@@ -41,11 +41,13 @@ yarn global add tslint jshint eslint sass-lint webpack \
 sudo pecl install xdebug
 
 # reset terminal
-reset
+reset && fish
 
 # add fisher package
-fisher add fishpkg/fish-prompt-metro
-fisher add franciscolourenco/done
+#fisher add fishpkg/fish-prompt-metro
+fisher install matchai/spacefish
+fisher install franciscolourenco/done
+fisher install laughedelic/brew-completions
 fisher
 fisher self-update
 
