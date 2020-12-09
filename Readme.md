@@ -25,10 +25,13 @@ fish_config
 ## install fisher theme and plugin
 
 ```sh
-fisher add fishpkg/fish-prompt-metro
-fisher add franciscolourenco/done
+# fisher add fishpkg/fish-prompt-metro
+# fisher add franciscolourenco/done
+fisher install matchai/spacefish
+fisher install franciscolourenco/done
+fisher install laughedelic/brew-completions
 fisher
-fisher self-update
+fisher update
 
 ```
 if you have bug run this on your terminal
