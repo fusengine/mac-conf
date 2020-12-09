@@ -49,7 +49,7 @@ fisher install matchai/spacefish
 fisher install franciscolourenco/done
 fisher install laughedelic/brew-completions
 fisher
-fisher self-update
+fisher update
 
 # reset
 curl -Lo ~/.config/fish/functions/humanize_duration.fish --create-dirs https://raw.githubusercontent.com/fishpkg/fish-humanize-duration/master/humanize_duration.fish
