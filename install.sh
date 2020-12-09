@@ -23,9 +23,9 @@ reset
 # easy python
 sudo easy_install pip
 
-# install software with cask java postman
+# install software with cask java postman mongodb-compass-community
 brew install \
-    discord appcleaner hyper docker iina sequel-pro gitkraken mongodb-compass-community \
+    discord appcleaner hyper docker iina sequel-pro gitkraken \
     visual-studio-code google-chrome alfred sketch code-notes adoptopenjdk motrix open-in-code \
     webtorrent dash teamviewer visual-studio iterm2 insomnia dockstation openinterminal-lite \
     imageoptim onyx sketchpacks balenaetcher vmware-fusion jetbrains-toolbox openinterminal \
