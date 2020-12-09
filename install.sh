@@ -24,7 +24,7 @@ reset
 sudo easy_install pip
 
 # install software with cask java postman
-brew cask install \
+brew install \
     discord appcleaner hyper docker iina sequel-pro gitkraken mongodb-compass-community \
     visual-studio-code google-chrome alfred sketch code-notes adoptopenjdk motrix open-in-code \
     webtorrent dash teamviewer visual-studio iterm2 insomnia dockstation openinterminal-lite \
