@@ -23,11 +23,11 @@ reset
 # easy python
 sudo easy_install pip
 
-# old packeges java postman mongodb-compass-community onyx openinterminal-lite open-in-code brewlet webtorrent pock sequel-pro
+# old packeges java postman mongodb-compass-community onyx openinterminal-lite open-in-code brewlet webtorrent pock sequel-pro hyper
 
 # install software
 brew install --cask \
-    discord appcleaner hyper docker iina gitkraken mongodb-compass \
+    discord appcleaner docker iina gitkraken mongodb-compass \
     visual-studio-code google-chrome alfred sketch code-notes adoptopenjdk motrix \
     dash teamviewer visual-studio iterm2 insomnia dockstation \
     imageoptim sketchpacks balenaetcher vmware-fusion jetbrains-toolbox openinterminal \
