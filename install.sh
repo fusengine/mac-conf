@@ -23,13 +23,15 @@ reset
 # easy python
 sudo easy_install pip
 
-# install software with cask java postman mongodb-compass-community onyx
-brew install \
-    discord appcleaner hyper docker iina sequel-pro gitkraken \
-    visual-studio-code google-chrome alfred sketch code-notes adoptopenjdk motrix open-in-code \
-    webtorrent dash teamviewer visual-studio iterm2 insomnia dockstation openinterminal-lite \
+# old packeges java postman mongodb-compass-community onyx openinterminal-lite open-in-code brewlet webtorrent pock sequel-pro
+
+# install software
+brew install --cask \
+    discord appcleaner hyper docker iina gitkraken mongodb-compass \
+    visual-studio-code google-chrome alfred sketch code-notes adoptopenjdk motrix \
+    dash teamviewer visual-studio iterm2 insomnia dockstation \
     imageoptim sketchpacks balenaetcher vmware-fusion jetbrains-toolbox openinterminal \
-    keyboardcleantool pock tableplus microsoft-edge brewlet
+    keyboardcleantool tableplus microsoft-edge firefox
 
 # install global package node
 yarn global add tslint jshint eslint sass-lint webpack \
@@ -52,5 +54,5 @@ fisher
 fisher update
 
 # reset
-curl -Lo ~/.config/fish/functions/humanize_duration.fish --create-dirs https://raw.githubusercontent.com/fishpkg/fish-humanize-duration/master/humanize_duration.fish
-curl -Lo ~/.config/fish/conf.d/done.fish --create-dirs https://raw.githubusercontent.com/franciscolourenco/done/master/conf.d/done.fish
+#curl -Lo ~/.config/fish/functions/humanize_duration.fish --create-dirs https://raw.githubusercontent.com/fishpkg/fish-humanize-duration/master/humanize_duration.fish
+#curl -Lo ~/.config/fish/conf.d/done.fish --create-dirs https://raw.githubusercontent.com/franciscolourenco/done/master/conf.d/done.fish
