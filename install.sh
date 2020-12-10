@@ -1,7 +1,7 @@
 # install fish + node
 brew tap dart-lang/dart
 brew tap buo/cask-upgrade
-brew tap zkokaja/brewlet
+#brew tap zkokaja/brewlet
 
 brew install \
     yarn wget fish php php-cs-fixer php-code-sniffer \
@@ -15,7 +15,7 @@ echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
 
 # install fisher
-curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+curl -sL https://git.io/fisher | source && fish && fisher install jorgebucaran/fisher
 
 # reset terminal
 reset
