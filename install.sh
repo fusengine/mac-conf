@@ -27,7 +27,7 @@ sudo easy_install pip
 
 # install software
 brew install --cask \
-    discord appcleaner docker iina gitkraken mongodb-compass \
+    discord appcleaner docker iina gitkraken mongodb-compass kite \
     visual-studio-code google-chrome alfred sketch code-notes adoptopenjdk motrix \
     dash teamviewer visual-studio iterm2 insomnia dockstation \
     imageoptim sketchpacks balenaetcher vmware-fusion jetbrains-toolbox openinterminal \
