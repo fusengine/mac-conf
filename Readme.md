@@ -33,6 +33,9 @@ fisher install laughedelic/brew-completions
 fisher
 fisher update
 
+# composer path 
+`set -U fish_user_path $HOME/.composer/vendor/bin`
+
 ```
 if you have bug run this on your terminal
 ```sh
