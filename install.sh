@@ -29,9 +29,9 @@ sudo easy_install pip
 brew install --cask \
     discord appcleaner docker iina gitkraken mongodb-compass kite \
     visual-studio-code google-chrome alfred sketch code-notes adoptopenjdk motrix \
-    dash teamviewer visual-studio iterm2 insomnia dockstation \
+    dash teamviewer visual-studio iterm2 insomnia dockstation amethyst \
     imageoptim sketchpacks balenaetcher vmware-fusion jetbrains-toolbox openinterminal \
-    keyboardcleantool tableplus microsoft-edge firefox
+    keyboardcleantool microsoft-edge firefox beekeeper-studio 
 
 # install global package node
 yarn global add tslint jshint eslint sass-lint webpack \
