@@ -24,20 +24,25 @@ reset
 sudo easy_install pip
 
 # old packeges java postman mongodb-compass-community onyx openinterminal-lite open-in-code brewlet webtorrent pock sequel-pro hyper
+# discord appcleaner docker iina gitkraken mongodb-compass kite \
+# visual-studio-code google-chrome alfred sketch code-notes adoptopenjdk motrix \
+# dash teamviewer visual-studio iterm2 insomnia dockstation amethyst \
+# imageoptim sketchpacks balenaetcher vmware-fusion jetbrains-toolbox openinterminal \
+# keyboardcleantool microsoft-edge firefox beekeeper-studio 
 
 # install software
-brew install --cask \
-    discord appcleaner docker iina gitkraken mongodb-compass kite \
-    visual-studio-code google-chrome alfred sketch code-notes adoptopenjdk motrix \
-    dash teamviewer visual-studio iterm2 insomnia dockstation amethyst \
-    imageoptim sketchpacks balenaetcher vmware-fusion jetbrains-toolbox openinterminal \
-    keyboardcleantool microsoft-edge firefox beekeeper-studio 
+brew install --cask \   
+    discord appcleaner docker iina gitkraken  kite vmware-fusion \
+    visual-studio-code  alfred sketch code-notes  motrix nextcloud \
+    teamviewer  iterm2 insomnia dockstation amethyst imageoptim onyx \
+    sketchpacks balenaetcher jetbrains-toolbox openinterminal firefox \
+    beekeeper-studio nextcloud 
 
 # install global package node
-yarn global add tslint jshint eslint sass-lint webpack \
-    webpack-cli surge pure-prompt @vue/cli \
-    create-react-app @angular/cli typescript \
-    laravel-echo-server nodemon jscs prettier
+# yarn global add tslint jshint eslint sass-lint webpack \
+#     webpack-cli surge pure-prompt @vue/cli \
+#     create-react-app @angular/cli typescript \
+#     laravel-echo-server nodemon jscs prettier
 
 # install package php
 sudo pecl install xdebug
