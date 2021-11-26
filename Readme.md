@@ -7,7 +7,11 @@
 * [hosts prefpan mac](https://github.com/specialunderwear/Hosts.prefpane/releases)
 
 ```sh
+# Script to apple intel
 curl -sSL https://raw.githubusercontent.com/fusengine/mac-conf/master/install.sh | sh
+
+# Script to apple silicon
+curl -sSL https://raw.githubusercontent.com/fusengine/mac-conf/master/install-apple-silicon.sh | sh
 ```
 ## upgrade brew cask
 [brew cask update](https://github.com/buo/homebrew-cask-upgrade)
