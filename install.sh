@@ -4,7 +4,7 @@ brew tap buo/cask-upgrade
 #brew tap zkokaja/brewlet
 
 brew install \
-    yarn wget fish php php-cs-fixer php-code-sniffer \
+    yarn nvm node wget fish php php-cs-fixer php-code-sniffer \
     phpunit ctop golang dart composer screenfetch php \
     terminal-notifier shfmt
 
@@ -55,6 +55,7 @@ reset && fish
 fisher install matchai/spacefish
 fisher install franciscolourenco/done
 fisher install laughedelic/brew-completions
+fisher install jorgebucaran/nvm.fish
 fisher
 fisher update
 
