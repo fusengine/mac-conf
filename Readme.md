@@ -39,10 +39,11 @@ fisher update
 ```
 # composer path 
 ```fish
-set -U fish_user_path $HOME/.composer/vendor/bin
 set -gx PATH $PATH $HOME/.composer/vendor/bin
+set -U fish_user_paths $HOME/.composer/vendor/bin
 ```
 
+# Fish shell
 if you have bug run this on your terminal
 ```sh
 curl -Lo ~/.config/fish/functions/humanize_duration.fish --create-dirs https://raw.githubusercontent.com/fishpkg/fish-humanize-duration/master/humanize_duration.fish
