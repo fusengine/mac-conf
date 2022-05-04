@@ -51,6 +51,7 @@ reset && fish
 fisher install matchai/spacefish
 fisher install franciscolourenco/done
 fisher install laughedelic/brew-completions
+fisher install jorgebucaran/nvm.fish
 fisher
 fisher update
 
