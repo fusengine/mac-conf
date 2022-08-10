@@ -5,7 +5,7 @@ brew tap buo/cask-upgrade
 brew install \
     yarn wget fish fisher php php-cs-fixer php-code-sniffer openvpn-connect \
     phpunit ctop composer screenfetch php bat fig nvm \
-    terminal-notifier shfmt openvpn
+    terminal-notifier shfmt openvpn gh
 
 # add default config fish apple silicon
 chsh -s /opt/homebrew/bin/fish
