@@ -5,7 +5,7 @@ brew tap buo/cask-upgrade
 brew install \
     yarn wget fish fisher php php-cs-fixer php-code-sniffer openvpn-connect \
     phpunit ctop composer screenfetch php bat fig nvm \
-    terminal-notifier shfmt openvpn gh
+    terminal-notifier shfmt openvpn gh pnpm
 
 # add default config fish apple silicon
 chsh -s /opt/homebrew/bin/fish
@@ -32,7 +32,7 @@ brew install --cask \
     visual-studio-code alfred sketch code-notes motrix \
     teamviewer  iterm2 insomnia dockstation amethyst \
     imageoptim balenaetcher jetbrains-toolbox openinterminal \
-    firefox beekeeper-studio nextcloud onyx
+    firefox beekeeper-studio nextcloud onyx tabby
 
 # install global package node
 # yarn global add tslint jshint eslint sass-lint webpack \
