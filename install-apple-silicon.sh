@@ -5,7 +5,7 @@ brew tap buo/cask-upgrade
 brew install \
     yarn wget fish fisher php php-cs-fixer php-code-sniffer openvpn-connect \
     phpunit ctop composer screenfetch php bat fig nvm \
-    terminal-notifier shfmt openvpn gh pnpm
+    terminal-notifier shfmt openvpn gh pnpm neofetch
 
 # add default config fish apple silicon
 chsh -s /opt/homebrew/bin/fish
@@ -24,15 +24,15 @@ reset
 # easy python
 #sudo easy_install pip
 
-# old packeges java postman mongodb-compass-community onyx openinterminal-lite open-in-code brewlet webtorrent pock sequel-pro hyper sketchpacks
+# old packeges java postman mongodb-compass-community onyx openinterminal-lite open-in-code brewlet webtorrent pock sequel-pro hyper sketchpacks alfred iterm2
 
 # install software
 brew install --cask \
     discord appcleaner docker iina gitkraken kite \
-    visual-studio-code alfred sketch code-notes motrix \
-    teamviewer  iterm2 insomnia dockstation amethyst \
+    visual-studio-code sketch code-notes motrix readdle-spark \
+    teamviewer insomnia dockstation amethyst fig rustdesk \
     imageoptim balenaetcher jetbrains-toolbox openinterminal \
-    firefox beekeeper-studio nextcloud onyx tabby
+    firefox beekeeper-studio nextcloud onyx tabby warp raycast
 
 # install global package node
 # yarn global add tslint jshint eslint sass-lint webpack \
