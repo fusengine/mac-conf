@@ -28,7 +28,7 @@ reset
 
 # install software
 brew install --cask \
-    discord appcleaner docker iina gitkraken kite \
+    discord appcleaner docker iina gitkraken kite sequel-ace \
     visual-studio-code sketch code-notes motrix readdle-spark \
     teamviewer insomnia dockstation amethyst fig rustdesk \
     imageoptim balenaetcher jetbrains-toolbox openinterminal \
