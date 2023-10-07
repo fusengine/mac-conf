@@ -24,7 +24,7 @@ reset
 # easy python
 #sudo easy_install pip
 
-# old packeges java postman mongodb-compass-community onyx openinterminal-lite open-in-code brewlet webtorrent pock sequel-pro hyper sketchpacks alfred iterm2
+# old packeges java postman mongodb-compass-community onyx openinterminal-lite open-in-code brewlet webtorrent pock sequel-pro hyper sketchpacks alfred iterm2 tabby
 
 # install software
 brew install --cask \
@@ -32,7 +32,7 @@ brew install --cask \
     visual-studio-code sketch code-notes motrix readdle-spark \
     teamviewer insomnia dockstation amethyst fig rustdesk \
     imageoptim balenaetcher jetbrains-toolbox openinterminal \
-    firefox beekeeper-studio nextcloud onyx tabby warp raycast
+    firefox beekeeper-studio nextcloud onyx warp raycast
 
 # install global package node
 # yarn global add tslint jshint eslint sass-lint webpack \
