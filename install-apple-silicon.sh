@@ -24,11 +24,11 @@ reset
 # easy python
 #sudo easy_install pip
 
-# old packeges java postman mongodb-compass-community onyx openinterminal-lite open-in-code brewlet webtorrent pock sequel-pro hyper sketchpacks alfred iterm2 tabby
+# old packeges java postman mongodb-compass-community onyx openinterminal-lite open-in-code brewlet webtorrent pock sequel-pro hyper sketchpacks alfred iterm2 tabby kite
 
 # install software
 brew install --cask \
-    discord appcleaner docker iina gitkraken kite sequel-ace \
+    discord appcleaner docker iina gitkraken sequel-ace \
     visual-studio-code sketch code-notes motrix readdle-spark \
     teamviewer insomnia dockstation amethyst fig rustdesk \
     imageoptim balenaetcher jetbrains-toolbox openinterminal \
