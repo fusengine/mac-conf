@@ -1,11 +1,16 @@
 # install fish + node
 brew tap buo/cask-upgrade
+brew tap homebrew/cask-fonts
 #brew tap zkokaja/brewlet
 
 brew install \
     yarn wget fish fisher php php-cs-fixer php-code-sniffer openvpn-connect \
-    phpunit ctop composer screenfetch php bat fig nvm \
-    terminal-notifier shfmt openvpn gh pnpm neofetch
+    phpunit ctop composer screenfetch php bat fig nvm terminal-notifier shfmt openvpn gh pnpm neofetch \
+    font-hack-nerd-font font-ubuntu font-ubuntu-condensed font-ubuntu-mono font-ubuntu-mono-derivative-powerline  \
+    font-ubuntu-mono-nerd-font  font-ubuntu-nerd-font font-jetbrains-mono font-jetbrains-mono-nerd-font  \
+    font-fira-code font-fira-mono-for-powerline font-fira-mono font-fira-mono-for-powerline font-fira-mono-nerd-font  \
+    font-fira-sans font-fira-sans-condensed font-fira-code-nerd-font font-fira-sans-extra-condensed
+
 
 # add default config fish apple silicon
 chsh -s /opt/homebrew/bin/fish
