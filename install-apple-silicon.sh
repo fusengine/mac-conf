@@ -3,8 +3,9 @@ brew tap buo/cask-upgrade
 brew tap homebrew/cask-fonts
 #brew tap zkokaja/brewlet
 
+# yarn
 brew install \
-    yarn wget fish fisher php php-cs-fixer php-code-sniffer openvpn-connect \
+    wget fish fisher php php-cs-fixer php-code-sniffer openvpn-connect \
     phpunit ctop composer screenfetch php bat fig nvm terminal-notifier shfmt openvpn gh pnpm neofetch \
     font-hack-nerd-font font-ubuntu font-ubuntu-condensed font-ubuntu-mono font-ubuntu-mono-derivative-powerline  \
     font-ubuntu-mono-nerd-font  font-ubuntu-nerd-font font-jetbrains-mono font-jetbrains-mono-nerd-font  \
